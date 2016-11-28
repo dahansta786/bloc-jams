@@ -41,11 +41,11 @@ var albumNas = {
          { title: 'N.Y. State of Mind', duration: '4:53' },
          { title: "Life's a Bitch", duration: '3:30'},
          { title: 'The World Is Yours', duration: '4:50' },
-         { title: 'Halftime', duration: '4:20'}
-         { title: "Memory Lane (Sittin' in da Park)", duration: '4:08'}
-         { title: 'One Love', duration: '5:25'}
-         { title: 'One Time 4 Your Mind', duration: '3:18'}
-         { title: 'Represent', duration: '4:12'}
+         { title: 'Halftime', duration: '4:20'},
+         { title: "Memory Lane (Sittin' in da Park)", duration: '4:08'},
+         { title: 'One Love', duration: '5:25'},
+         { title: 'One Time 4 Your Mind', duration: '3:18'},
+         { title: 'Represent', duration: '4:12'},
          { title: "It Ain't Hard To Tell", duration: '3:22'}
      ]
 };
