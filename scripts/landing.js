@@ -20,6 +20,6 @@ window.onload = function () {
     window.addEventListener('scroll', function(event) {
         if (document.documentElement.scrollTop || document.body.scrollTop >= scrollDistance) {
              animatePoints(pointsArray);
-     });
-   }
+     };
+   })
 };
