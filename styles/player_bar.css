@@ -42,20 +42,20 @@
      margin-right: 16.5%;
  }
  
- .player-bar .main-controls .play-pause {
+.player-bar .main-controls .play-pause {
      margin-right: 15%;
      font-size: 1.6rem;
  }
 
- .player-bar .currently-playing {
+.player-bar .currently-playing {
      width: 50%;
      text-align: center;
      position: relative;
  }
  
 .player-bar .currently-playing .song-name,
- .player-bar .currently-playing .artist-name,
- .player-bar .currently-playing .artist-song-mobile {
+.player-bar .currently-playing .artist-name,
+.player-bar .currently-playing .artist-song-mobile {
      text-align: center;
      font-size: 0.75rem;
      margin: 0;
@@ -74,18 +74,18 @@
      font-size: 0.8rem;
  }
  
- .seek-control .current-time {
+.seek-control .current-time {
      position: absolute;
      top: 0.5rem;
  }
  
- .seek-control .total-time {
+.seek-control .total-time {
      position: absolute;
      right: 0;
      top: 0.5rem;
  }
  
- .seek-bar {
+.seek-bar {
      height: 0.25rem;
      background-color: rgba(255, 255, 255, 0.3);
      border-radius: 2px;
@@ -112,9 +112,10 @@
      margin-top: -0.25rem;
      border-radius: 50%;
      cursor: pointer;
-     -webkit-transition: all 100ms ease-in-out;
-        -moz-transition: all 100ms ease-in-out;
-             transition: all 100ms ease-in-out;
+     transition: width 100ms ease-in-out,
+                 height 100ms ease-in-out,
+                 margin-top 100ms ease-in-out,
+                 margin-left 100ms ease-in-out;
  }
  
  .seek-bar:hover .thumb {
